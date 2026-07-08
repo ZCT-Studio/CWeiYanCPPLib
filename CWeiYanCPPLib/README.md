@@ -7,7 +7,7 @@
 
 ![C++](https://img.shields.io/badge/language-C++-blue)
 ![C++](https://img.shields.io/badge/C++-C++11%2B-brightgreen)
-![License](https://img.shields.io/github/license/CZF-H/WeiYanNRCPPLib)
+![License](https://img.shields.io/github/license/ZCT-Studio/CWeiYanCPPLib)
 
 **感谢以下（开源）项目（不分先后顺序）：**
 + https://github.com/nlohmann/json
@@ -28,7 +28,7 @@
 ```cpp
 #include <iostream>
 #include <windows.h>
-#include "WeiYanNRCPPLib/weiyan.hpp"
+#include "CWeiYanCPPLib/weiyan.hpp"
 
 int main() {
     SetConsoleOutputCP(CP_UTF8);
