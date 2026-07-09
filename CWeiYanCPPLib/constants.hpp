@@ -9,6 +9,7 @@
 
 namespace Weiyan {
     namespace Constants {
+        constexpr auto ProjectName = "CWeiYanCPPLib";
         constexpr const char* Authors[] {
             "WJiangzhi"
           };
