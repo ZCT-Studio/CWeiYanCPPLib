@@ -7,6 +7,7 @@
 #ifndef WEIYAN_NOTICE_HPP
 #define WEIYAN_NOTICE_HPP
 
+#include "constants.hpp"
 #include <chrono>
 #include "context.hpp"
 #include "tools/url.hpp"

@@ -7,6 +7,7 @@
 #ifndef WEIYAN_REQUEST_HPP
 #define WEIYAN_REQUEST_HPP
 
+#include "../constants.hpp"
 #include "macro.hpp"
 #include <iostream>
 #include <string>

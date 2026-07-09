@@ -7,6 +7,7 @@
 #ifndef WEIYAN_LOGIN_HPP
 #define WEIYAN_LOGIN_HPP
 
+#include "constants.hpp"
 #include <string>
 #include <chrono>
 #include <sstream>
@@ -110,9 +111,10 @@ namespace Weiyan {
 
                 auto code = data["code"].get<int>();
 
-                auto GetStatusMessage = [&code, this](const json& j_) {
+                auto GetStatusMessage = [&code, this](const json& j_) -> std::string {
+                    if (code == mSuccess_code)
+                        return "登录成功";
                     static const std::unordered_map<int, std::string> msg_map = {
-                            {this->mSuccess_code, "登录成功"},
                             {100, "未绑定应用 ID"},
                             {102, "应用已关闭"},
                             {104, "签名为空"},

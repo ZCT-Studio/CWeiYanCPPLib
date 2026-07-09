@@ -7,6 +7,7 @@
 #ifndef WEIYAN_UNBIND_HPP
 #define WEIYAN_UNBIND_HPP
 
+#include "constants.hpp"
 #include <chrono>
 #include <sstream>
 #include "context.hpp"

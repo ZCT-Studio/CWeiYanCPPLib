@@ -7,6 +7,7 @@
 #ifndef WEIYAN_CONTEXT_HPP
 #define WEIYAN_CONTEXT_HPP
 
+#include "constants.hpp"
 #include <string>
 #include <memory>
 #include "tools/encrypt.hpp"

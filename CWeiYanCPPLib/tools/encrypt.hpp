@@ -7,6 +7,7 @@
 #ifndef WEIYAN_ENCRYPT_HPP
 #define WEIYAN_ENCRYPT_HPP
 
+#include "../constants.hpp"
 #include <string>
 #include <vector>
 #include <stdexcept>

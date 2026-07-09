@@ -7,6 +7,7 @@
 #ifndef WEIYAN_TYPES_HPP
 #define WEIYAN_TYPES_HPP
 
+#include "../constants.hpp"
 #include "json.hpp"
 #include <ctime>
 #include <string>

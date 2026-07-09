@@ -7,6 +7,7 @@
 #ifndef WEIYAN_MACRO_HPP
 #define WEIYAN_MACRO_HPP
 
+#include "../constants.hpp"
 #define WEIYAN_NS_BEGIN namespace Weiyan {
 #define WEIYAN_NS_END }
 #define WEIYAN_NS_API ::Weiyan::

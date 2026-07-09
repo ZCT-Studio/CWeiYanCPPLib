@@ -7,6 +7,7 @@
 #ifndef WEIYAN_JSON_HPP
 #define WEIYAN_JSON_HPP
 
+#include "../constants.hpp"
 #include "../third_party/nlohmann/json/single_include/json.hpp"
 namespace Weiyan {
     using json = nlohmann::json;
