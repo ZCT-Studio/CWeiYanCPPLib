@@ -7,10 +7,10 @@
 #ifndef WEIYAN_URL_HPP
 #define WEIYAN_URL_HPP
 
-#include <deque>
+#include "../constants.hpp"
 
 #include "json.hpp"
-
+#include <deque>
 #include <sstream>
 #include <iomanip>
 #include <vector>

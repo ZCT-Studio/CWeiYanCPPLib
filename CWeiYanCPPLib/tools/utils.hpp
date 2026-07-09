@@ -7,6 +7,7 @@
 #ifndef WEIYAN_UTILS_HPP
 #define WEIYAN_UTILS_HPP
 
+#include "../constants.hpp"
 #include <cstdint>
 #include <string>
 #include <vector>

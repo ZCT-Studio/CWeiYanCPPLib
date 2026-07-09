@@ -12,8 +12,8 @@ namespace Weiyan {
         constexpr const char* Authors[] {
             "WJiangzhi"
           };
-        constexpr auto VersionName = "1.0.0";
-        constexpr unsigned long Version = 100000;
+        constexpr auto VersionName = "1.0.1";
+        constexpr unsigned long Version = 100010;
     }
 }
 

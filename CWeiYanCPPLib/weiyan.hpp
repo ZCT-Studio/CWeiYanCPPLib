@@ -7,6 +7,7 @@
 #ifndef WEIYAN_WEIYAN_HPP
 #define WEIYAN_WEIYAN_HPP
 
+#include "constants.hpp"
 #include "context.hpp"
 #include "login.hpp"
 #include "notice.hpp"
